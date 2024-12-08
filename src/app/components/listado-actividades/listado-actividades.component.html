@@ -1,0 +1,22 @@
+<div class="container mt-4">
+  <h2 class="text-center">Angular-Hola-Clase!</h2>
+  <h4 class="text-center">Actividades-GYM-4V</h4>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Fecha</th>
+        <th>Lugar</th>
+        <th>Monitor</th>
+        <th>Tipo</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let actividad of actividades">
+        <td>{{ actividad.fecha }}</td>
+        <td>{{ actividad.lugar }}</td>
+        <td>{{ actividad.monitor }}</td>
+        <td>{{ actividad.tipo }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
