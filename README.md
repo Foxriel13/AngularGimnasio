@@ -27,3 +27,7 @@ Para ejecutar este proyecto en tu máquina local, sigue los siguientes pasos:
 1. Clona este repositorio en tu máquina local:
    ```bash
    git clone https://github.com/Foxriel13/AngularGimnasio
+
+2. Instala npm en la terminal dentro del proyecto
+   ```bash
+   npm install
